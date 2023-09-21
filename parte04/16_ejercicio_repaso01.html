@@ -17,6 +17,9 @@
          * 3. Para poder modificar la mitad de la palabra (mayúsculas), necesitarás primero obtener una cadena que sólo tenga esa parte
          * 4. Una vez que tengamos la mitad de la palabra en mayúsculas, tendrás que reemplazar una subcadena por otra
          */
+        let frase = "me gustan las patatas";
+        console.log(frase.replaceAll(frase.substring(frase.length / 2), frase.substring(frase.length / 2).toLocaleUpperCase()));
+
     </script>
 </body>
 

@@ -18,6 +18,14 @@
         * 3. Una vez sepas que posición ocupa dicho carácter, puedes recuperar una subcadena que devuelva el primer número
         * y otra subcadena que contenga el segundo número
         */
+        let n1 = prompt("Numero1");
+        let n2 = prompt("Numero2");
+        let suma = n1 + "+" + n2;
+        console.log(suma);
+        let posicion = suma.indexOf("+");
+
+        console.log("la suma contiene los numeros " + suma.substring(0, posicion) + " y " + suma.substring(posicion + 1));
+
     </script>
 </body>
 
