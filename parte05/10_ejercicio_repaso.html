@@ -13,6 +13,28 @@
         * Crear un array de 10 números. Usar un for para asignar los valores de 20 a 11 a las 10 posiciones
         * (en orden descendente). Usar un for para mostrar los 10 valores en pantalla.
         */
+        let arr = [];
+        for (let i = 9; i >= 0; i--) {
+            arr[i] = i + 11;
+        }
+        for (let x = 0; x < arr.length; x++) {
+            console.log(arr[x]);
+        }
+        //nose si pedia que se asignase de manera descendente que empiece pos 9 = 20, pos8 = 19...
+        // o que se asignase de manera ascendente pero el valor fuese descendente pos0 = 20 pos1 = 19...
+        // asi que he hecho las 2 ;) 
+        console.log("/////////////////////////////////////////////////////////");
+        let arr2 = [];
+        let n = 20;
+        for (let i = 0; i <= 9; i++) {
+            arr2[i] = n;
+            n--;
+
+        }
+        for (let y = 0; y < arr.length; y++) {
+            console.log(arr2[y]);
+        }
+
 
 
     </script>
