@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 10vh 2vh 4vh;
+    background-color: cornflowerblue;
+}
+
+#titulos {
+    color: white;
+}
+
+#title2 {
+    text-align: end;
+}
+
+#list {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    margin: 0 1vh 0 1vh;
+    padding: 0 5vh 0 2vh;
+    font-weight: bold;
+    color: white;
+}
