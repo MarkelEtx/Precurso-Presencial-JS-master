@@ -22,11 +22,11 @@ let allParagraphQS = document.querySelectorAll(".paragraph");
 //Cogemos todos los elementos que son del mismo tipo
 let allPsQS = document.querySelectorAll("p");
 
-console.log(title);
-console.log(paragraphs);
-console.log(ps);
-console.log(titleQS);
-console.log(firstParagraph);
-console.log(firstP);
-console.log(allParagraphQS);
-console.log(allPsQS);
+console.log("title", title);
+console.log("paragraphs", paragraphs);
+console.log("ps", ps);
+console.log("titleQS", titleQS);
+console.log("firstParagraph", firstParagraph);
+console.log("firstP", firstP);
+console.log("allParagraphQS", allParagraphQS);
+console.log("allPsQS", allPsQS);

@@ -4,7 +4,9 @@ let persona = {
 };
 
 console.log(persona.primerApellido);
+console.log(persona);
 
 persona.primerApellido = "Murguia";
 
 console.log(persona.primerApellido);
+console.log(persona);

@@ -5,5 +5,6 @@ let persona = {
   domicilio: "Midireccion, Bilbao",
 };
 
+console.log(persona);
 delete persona.domicil;
 console.log(persona);
